@@ -1,0 +1,162 @@
+[
+  {
+    "id": "1",
+    "title": "Mathematics Grade 9",
+    "titleAm": "ሂሳብ ክፍል 9",
+    "subject": "Mathematics",
+    "grade": 9,
+    "description": "Comprehensive mathematics textbook covering algebra, geometry, and number theory for grade 9 students.",
+    "descriptionAm": "የአልጀብራ፣ የጂኦሜትሪ እና የቁጥር ንድፈ ሃሳብን ያካተተ አጠቃላይ የሂሳብ መማሪያ መጽሐፍ።",
+    "driveUrl": "https://drive.google.com/file/d/example1"
+  },
+  {
+    "id": "2",
+    "title": "Physics Grade 9",
+    "titleAm": "ፊዚክስ ክፍል 9",
+    "subject": "Physics",
+    "grade": 9,
+    "description": "Introduction to physics principles including mechanics, energy, and motion.",
+    "descriptionAm": "ሜካኒክስ፣ ሃይል እና እንቅስቃሴን ጨምሮ የፊዚክስ መርሆዎች መግቢያ።",
+    "driveUrl": "https://drive.google.com/file/d/example2"
+  },
+  {
+    "id": "3",
+    "title": "Chemistry Grade 9",
+    "titleAm": "ኬሚስትሪ ክፍል 9",
+    "subject": "Chemistry",
+    "grade": 9,
+    "description": "Basic chemistry concepts, atomic structure, and chemical reactions.",
+    "descriptionAm": "መሰረታዊ የኬሚስትሪ ጽንሰ-ሀሳቦች፣ የአቶሚክ መዋቅር እና የኬሚካል ምላሾች።",
+    "driveUrl": "https://drive.google.com/file/d/example3"
+  },
+  {
+    "id": "4",
+    "title": "Biology Grade 9",
+    "titleAm": "ባዮሎጂ ክፍል 9",
+    "subject": "Biology",
+    "grade": 9,
+    "description": "Study of living organisms, cells, and basic biological processes.",
+    "descriptionAm": "የሕይወት አካላት፣ ሴሎች እና መሰረታዊ የባዮሎጂካል ሂደቶች ጥናት።",
+    "driveUrl": "https://drive.google.com/file/d/example4"
+  },
+  {
+    "id": "5",
+    "title": "English Grade 9",
+    "titleAm": "እንግሊዝኛ ክፍል 9",
+    "subject": "English",
+    "grade": 9,
+    "description": "English language textbook focusing on grammar, literature, and communication skills.",
+    "descriptionAm": "በሰዋሰው፣ ስነ-ጽሁፍ እና የመገናኛ ክህሎቶች ላይ ያተኮረ የእንግሊዝኛ መማሪያ።",
+    "driveUrl": "https://drive.google.com/file/d/example5"
+  },
+  {
+    "id": "6",
+    "title": "Mathematics Grade 10",
+    "titleAm": "ሂሳብ ክፍል 10",
+    "subject": "Mathematics",
+    "grade": 10,
+    "description": "Advanced mathematics including trigonometry, calculus basics, and statistics.",
+    "descriptionAm": "ትሪጎኖሜትሪን፣ የካልኩለስ መሰረቶችን እና ስታትስቲክስን ያካተተ የላቀ ሂሳብ።",
+    "driveUrl": "https://drive.google.com/file/d/example6"
+  },
+  {
+    "id": "7",
+    "title": "Physics Grade 10",
+    "titleAm": "ፊዚክስ ክፍል 10",
+    "subject": "Physics",
+    "grade": 10,
+    "description": "Intermediate physics covering electricity, magnetism, and wave motion.",
+    "descriptionAm": "ኤሌክትሪክን፣ መግነጢስን እና የሞገድ እንቅስቃሴን የሚሸፍን መካከለኛ ፊዚክስ።",
+    "driveUrl": "https://drive.google.com/file/d/example7"
+  },
+  {
+    "id": "8",
+    "title": "History Grade 10",
+    "titleAm": "ታሪክ ክፍል 10",
+    "subject": "History",
+    "grade": 10,
+    "description": "Ethiopian and world history covering major historical events and civilizations.",
+    "descriptionAm": "ዋና ዋና ታሪካዊ ክስተቶችን እና ስልጣኔዎችን የሚሸፍን የኢትዮጵያ እና የአለም ታሪክ።",
+    "driveUrl": "https://drive.google.com/file/d/example8"
+  },
+  {
+    "id": "9",
+    "title": "Mathematics Grade 11",
+    "titleAm": "ሂሳብ ክፍል 11",
+    "subject": "Mathematics",
+    "grade": 11,
+    "description": "Advanced calculus, analytical geometry, and mathematical modeling.",
+    "descriptionAm": "የላቀ ካልኩለስ፣ የትንታኔ ጂኦሜትሪ እና የሂሳብ ሞዴሊንግ።",
+    "driveUrl": "https://drive.google.com/file/d/example9"
+  },
+  {
+    "id": "10",
+    "title": "Chemistry Grade 11",
+    "titleAm": "ኬሚስትሪ ክፍል 11",
+    "subject": "Chemistry",
+    "grade": 11,
+    "description": "Organic chemistry, chemical bonding, and laboratory techniques.",
+    "descriptionAm": "ኦርጋኒክ ኬሚስትሪ፣ የኬሚካል ትስስር እና የላብራቶሪ ቴክኒኮች።",
+    "driveUrl": "https://drive.google.com/file/d/example10"
+  },
+  {
+    "id": "11",
+    "title": "Physics Grade 11",
+    "titleAm": "ፊዚክስ ክፍል 11",
+    "subject": "Physics",
+    "grade": 11,
+    "description": "Advanced physics including thermodynamics, optics, and modern physics.",
+    "descriptionAm": "ቴርሞዳይናሚክስን፣ ኦፕቲክስን እና ዘመናዊ ፊዚክስን ያካተተ የላቀ ፊዚክስ።",
+    "driveUrl": "https://drive.google.com/file/d/example11"
+  },
+  {
+    "id": "12",
+    "title": "Biology Grade 11",
+    "titleAm": "ባዮሎጂ ክፍል 11",
+    "subject": "Biology",
+    "grade": 11,
+    "description": "Advanced biology covering genetics, evolution, and ecology.",
+    "descriptionAm": "ጄኔቲክስን፣ ዝግመተ ለውጥን እና ስነ-ምህዳርን የሚሸፍን የላቀ ባዮሎጂ።",
+    "driveUrl": "https://drive.google.com/file/d/example12"
+  },
+  {
+    "id": "13",
+    "title": "Mathematics Grade 12",
+    "titleAm": "ሂሳብ ክፍል 12",
+    "subject": "Mathematics",
+    "grade": 12,
+    "description": "University preparation mathematics including advanced calculus and linear algebra.",
+    "descriptionAm": "የላቀ ካልኩለስ እና የመስመር አልጀብራን ጨምሮ የዩኒቨርሲቲ ዝግጅት ሂሳብ።",
+    "driveUrl": "https://drive.google.com/file/d/example13"
+  },
+  {
+    "id": "14",
+    "title": "Physics Grade 12",
+    "titleAm": "ፊዚክስ ክፍል 12",
+    "subject": "Physics",
+    "grade": 12,
+    "description": "University preparation physics covering quantum mechanics and relativity.",
+    "descriptionAm": "ኳንተም ሜካኒክስ እና አንጻራዊነትን የሚሸፍን የዩኒቨርሲቲ ዝግጅት ፊዚክስ።",
+    "driveUrl": "https://drive.google.com/file/d/example14"
+  },
+  {
+    "id": "15",
+    "title": "Chemistry Grade 12",
+    "titleAm": "ኬሚስትሪ ክፍል 12",
+    "subject": "Chemistry",
+    "grade": 12,
+    "description": "Advanced chemistry preparing students for university-level studies.",
+    "descriptionAm": "ተማሪዎችን ለዩኒቨርሲቲ ደረጃ ትምህርት የሚያዘጋጅ የላቀ ኬሚስትሪ።",
+    "driveUrl": "https://drive.google.com/file/d/example15"
+  },
+  {
+    "id": "16",
+    "title": "Civics Grade 12",
+    "titleAm": "ዜግነት ክፍል 12",
+    "subject": "Civics",
+    "grade": 12,
+    "description": "Citizenship education covering governance, rights, and responsibilities.",
+    "descriptionAm": "አስተዳደርን፣ መብቶችን እና ኃላፊነቶችን የሚሸፍን የዜግነት ትምህርት።",
+    "driveUrl": "https://drive.google.com/file/d/example16"
+  }
+]
