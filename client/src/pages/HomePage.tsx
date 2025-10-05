@@ -25,11 +25,32 @@ export default function HomePage({ onGradeSelect }: HomePageProps) {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
-          <GradeCard grade={9} onClick={() => onGradeSelect(9)} />
-          <GradeCard grade={10} onClick={() => onGradeSelect(10)} />
-          <GradeCard grade={11} onClick={() => onGradeSelect(11)} />
-          <GradeCard grade={12} onClick={() => onGradeSelect(12)} />
+        <div className="mb-8">
+          <h3 className="text-section mb-4">
+            {t('Available Now', 'አሁን ያገኙ')}
+          </h3>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+            <GradeCard grade={9} onClick={() => onGradeSelect(9)} />
+            <GradeCard grade={10} onClick={() => onGradeSelect(10)} />
+            <GradeCard grade={11} onClick={() => onGradeSelect(11)} />
+            <GradeCard grade={12} onClick={() => onGradeSelect(12)} />
+          </div>
+        </div>
+
+        <div>
+          <h3 className="text-section mb-4">
+            {t('Coming Soon', 'በቅርቡ')}
+          </h3>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+            <GradeCard grade={1} comingSoon />
+            <GradeCard grade={2} comingSoon />
+            <GradeCard grade={3} comingSoon />
+            <GradeCard grade={4} comingSoon />
+            <GradeCard grade={5} comingSoon />
+            <GradeCard grade={6} comingSoon />
+            <GradeCard grade={7} comingSoon />
+            <GradeCard grade={8} comingSoon />
+          </div>
         </div>
 
         <div className="mt-16 text-center">
