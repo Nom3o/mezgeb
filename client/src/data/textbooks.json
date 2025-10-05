@@ -1,162 +1,452 @@
 [
   {
-    "id": "1",
-    "title": "Mathematics Grade 9",
-    "titleAm": "ሂሳብ ክፍል 9",
-    "subject": "Mathematics",
-    "grade": 9,
-    "description": "Comprehensive mathematics textbook covering algebra, geometry, and number theory for grade 9 students.",
-    "descriptionAm": "የአልጀብራ፣ የጂኦሜትሪ እና የቁጥር ንድፈ ሃሳብን ያካተተ አጠቃላይ የሂሳብ መማሪያ መጽሐፍ።",
-    "driveUrl": "https://drive.google.com/file/d/example1"
-  },
-  {
-    "id": "2",
+    "id": "9-physics",
     "title": "Physics Grade 9",
     "titleAm": "ፊዚክስ ክፍል 9",
     "subject": "Physics",
     "grade": 9,
     "description": "Introduction to physics principles including mechanics, energy, and motion.",
     "descriptionAm": "ሜካኒክስ፣ ሃይል እና እንቅስቃሴን ጨምሮ የፊዚክስ መርሆዎች መግቢያ።",
-    "driveUrl": "https://drive.google.com/file/d/example2"
+    "driveUrl": "https://drive.google.com/file/d/1kYkotf42dzMoSDUhoGQZgrdy6MTrGqE-"
   },
   {
-    "id": "3",
-    "title": "Chemistry Grade 9",
-    "titleAm": "ኬሚስትሪ ክፍል 9",
-    "subject": "Chemistry",
+    "id": "9-maths",
+    "title": "Mathematics Grade 9",
+    "titleAm": "ሂሳብ ክፍል 9",
+    "subject": "Mathematics",
     "grade": 9,
-    "description": "Basic chemistry concepts, atomic structure, and chemical reactions.",
-    "descriptionAm": "መሰረታዊ የኬሚስትሪ ጽንሰ-ሀሳቦች፣ የአቶሚክ መዋቅር እና የኬሚካል ምላሾች።",
-    "driveUrl": "https://drive.google.com/file/d/example3"
+    "description": "Comprehensive mathematics textbook covering algebra, geometry, and number theory.",
+    "descriptionAm": "የአልጀብራ፣ የጂኦሜትሪ እና የቁጥር ንድፈ ሃሳብን ያካተተ አጠቃላይ የሂሳብ መማሪያ።",
+    "driveUrl": "https://drive.google.com/file/d/1EMVrPn-BVNSICwU11MYaotE-knW8JfEP"
   },
   {
-    "id": "4",
-    "title": "Biology Grade 9",
-    "titleAm": "ባዮሎጂ ክፍል 9",
-    "subject": "Biology",
+    "id": "9-ict",
+    "title": "ICT Grade 9",
+    "titleAm": "አይሲቲ ክፍል 9",
+    "subject": "ICT",
     "grade": 9,
-    "description": "Study of living organisms, cells, and basic biological processes.",
-    "descriptionAm": "የሕይወት አካላት፣ ሴሎች እና መሰረታዊ የባዮሎጂካል ሂደቶች ጥናት።",
-    "driveUrl": "https://drive.google.com/file/d/example4"
+    "description": "Information and Communication Technology fundamentals.",
+    "descriptionAm": "የመረጃ እና የመገናኛ ቴክኖሎጂ መሰረታዊ ትምህርቶች።",
+    "driveUrl": "https://drive.google.com/file/d/1maxQrEhnKTJv0nwihyKF219EqPLYJ59Q"
   },
   {
-    "id": "5",
+    "id": "9-history",
+    "title": "History Grade 9",
+    "titleAm": "ታሪክ ክፍል 9",
+    "subject": "History",
+    "grade": 9,
+    "description": "Ethiopian and world history covering major historical events.",
+    "descriptionAm": "የኢትዮጵያ እና የአለም ታሪክ ዋና ዋና ክስተቶች።",
+    "driveUrl": "https://drive.google.com/file/d/1PVG4vY9Z6KvkmUIkphq46wRxmwavOSt3"
+  },
+  {
+    "id": "9-hpe",
+    "title": "Health and Physical Education Grade 9",
+    "titleAm": "ጤና እና የአካል ትምህርት ክፍል 9",
+    "subject": "Health and PE",
+    "grade": 9,
+    "description": "Health education and physical fitness curriculum.",
+    "descriptionAm": "የጤና ትምህርት እና የአካል ብቃት ስልጠና።",
+    "driveUrl": "https://drive.google.com/file/d/1uhkWlk_1ID-5WsC_gmnEXGzXRl2SL25O"
+  },
+  {
+    "id": "9-geography",
+    "title": "Geography Grade 9",
+    "titleAm": "ጂኦግራፊ ክፍል 9",
+    "subject": "Geography",
+    "grade": 9,
+    "description": "Study of Earth's features, climate, and human geography.",
+    "descriptionAm": "የምድር ባህሪያት፣ የአየር ንብረት እና የሰው ጂኦግራፊ ጥናት።",
+    "driveUrl": "https://drive.google.com/file/d/1D7HQ3UjgiUuXwbYMqD3fJGD1vYv9Affy"
+  },
+  {
+    "id": "9-english",
     "title": "English Grade 9",
     "titleAm": "እንግሊዝኛ ክፍል 9",
     "subject": "English",
     "grade": 9,
-    "description": "English language textbook focusing on grammar, literature, and communication skills.",
-    "descriptionAm": "በሰዋሰው፣ ስነ-ጽሁፍ እና የመገናኛ ክህሎቶች ላይ ያተኮረ የእንግሊዝኛ መማሪያ።",
-    "driveUrl": "https://drive.google.com/file/d/example5"
+    "description": "English language textbook focusing on grammar and communication.",
+    "descriptionAm": "በሰዋሰው እና የመገናኛ ክህሎት ላይ ያተኮረ የእንግሊዝኛ መማሪያ።",
+    "driveUrl": "https://drive.google.com/file/d/1uava1VgE24HlX0WuLz8JyUVtuwbq8wWQ"
   },
   {
-    "id": "6",
-    "title": "Mathematics Grade 10",
-    "titleAm": "ሂሳብ ክፍል 10",
-    "subject": "Mathematics",
-    "grade": 10,
-    "description": "Advanced mathematics including trigonometry, calculus basics, and statistics.",
-    "descriptionAm": "ትሪጎኖሜትሪን፣ የካልኩለስ መሰረቶችን እና ስታትስቲክስን ያካተተ የላቀ ሂሳብ።",
-    "driveUrl": "https://drive.google.com/file/d/example6"
+    "id": "9-economics",
+    "title": "Economics Grade 9",
+    "titleAm": "ኢኮኖሚክስ ክፍል 9",
+    "subject": "Economics",
+    "grade": 9,
+    "description": "Introduction to economic principles and systems.",
+    "descriptionAm": "የኢኮኖሚ መርሆዎች እና ስርዓቶች መግቢያ።",
+    "driveUrl": "https://drive.google.com/file/d/1SXpfv6mHCroY8yOi3KDAbn5QvSYkw01c"
   },
   {
-    "id": "7",
+    "id": "9-civics",
+    "title": "Civics Grade 9",
+    "titleAm": "ዜግነት ክፍል 9",
+    "subject": "Civics",
+    "grade": 9,
+    "description": "Citizenship education and civic responsibilities.",
+    "descriptionAm": "የዜግነት ትምህርት እና ሲቪክ ኃላፊነቶች।",
+    "driveUrl": "https://drive.google.com/file/d/1m9luf-pr65y3kusKs_1a3OlRsHbFYOOt"
+  },
+  {
+    "id": "9-chemistry",
+    "title": "Chemistry Grade 9",
+    "titleAm": "ኬሚስትሪ ክፍል 9",
+    "subject": "Chemistry",
+    "grade": 9,
+    "description": "Basic chemistry concepts and chemical reactions.",
+    "descriptionAm": "መሰረታዊ የኬሚስትሪ ጽንሰ-ሀሳቦች እና ምላሾች።",
+    "driveUrl": "https://drive.google.com/file/d/1W3dhp-0ooFhXdmZSZcU_EBnhFpTc09qL"
+  },
+  {
+    "id": "9-biology",
+    "title": "Biology Grade 9",
+    "titleAm": "ባዮሎጂ ክፍል 9",
+    "subject": "Biology",
+    "grade": 9,
+    "description": "Study of living organisms and biological processes.",
+    "descriptionAm": "የሕይወት አካላት እና የባዮሎጂካል ሂደቶች ጥናት።",
+    "driveUrl": "https://drive.google.com/file/d/1jlmaxCXPrTlLBAe50yiT7B80GpIJHnbI"
+  },
+  {
+    "id": "9-amharic",
+    "title": "Amharic Grade 9",
+    "titleAm": "አማርኛ ክፍል 9",
+    "subject": "Amharic",
+    "grade": 9,
+    "description": "Amharic language and literature curriculum.",
+    "descriptionAm": "የአማርኛ ቋንቋ እና ስነ-ጽሁፍ ትምህርት።",
+    "driveUrl": "https://drive.google.com/file/d/1xlYzNsqbyrJKBCROld9ibVbjBSaWav4I"
+  },
+  {
+    "id": "10-physics",
     "title": "Physics Grade 10",
     "titleAm": "ፊዚክስ ክፍል 10",
     "subject": "Physics",
     "grade": 10,
-    "description": "Intermediate physics covering electricity, magnetism, and wave motion.",
-    "descriptionAm": "ኤሌክትሪክን፣ መግነጢስን እና የሞገድ እንቅስቃሴን የሚሸፍን መካከለኛ ፊዚክስ።",
-    "driveUrl": "https://drive.google.com/file/d/example7"
+    "description": "Intermediate physics covering electricity and magnetism.",
+    "descriptionAm": "ኤሌክትሪክ እና መግነጢስን የሚሸፍን መካከለኛ ፊዚክስ።",
+    "driveUrl": "https://drive.google.com/file/d/1svxsBEECRquEzjf7lkpGX9Dub7e_a2-X"
   },
   {
-    "id": "8",
+    "id": "10-maths",
+    "title": "Mathematics Grade 10",
+    "titleAm": "ሂሳብ ክፍል 10",
+    "subject": "Mathematics",
+    "grade": 10,
+    "description": "Advanced mathematics including trigonometry and statistics.",
+    "descriptionAm": "ትሪጎኖሜትሪ እና ስታትስቲክስን ያካተተ የላቀ ሂሳብ።",
+    "driveUrl": "https://drive.google.com/file/d/1jikpZbCDqWgEarN17BMgUj-iPlb6E5Bt"
+  },
+  {
+    "id": "10-ict",
+    "title": "ICT Grade 10",
+    "titleAm": "አይሲቲ ክፍል 10",
+    "subject": "ICT",
+    "grade": 10,
+    "description": "Advanced ICT concepts and applications.",
+    "descriptionAm": "የላቀ አይሲቲ ጽንሰ-ሀሳቦች እና መተግበሪያዎች።",
+    "driveUrl": "https://drive.google.com/file/d/1ulDpHHXE2dzRwRqXFJZGkIxgTJ3zoown"
+  },
+  {
+    "id": "10-history",
     "title": "History Grade 10",
     "titleAm": "ታሪክ ክፍል 10",
     "subject": "History",
     "grade": 10,
-    "description": "Ethiopian and world history covering major historical events and civilizations.",
-    "descriptionAm": "ዋና ዋና ታሪካዊ ክስተቶችን እና ስልጣኔዎችን የሚሸፍን የኢትዮጵያ እና የአለም ታሪክ።",
-    "driveUrl": "https://drive.google.com/file/d/example8"
+    "description": "World history and major civilizations.",
+    "descriptionAm": "የአለም ታሪክ እና ዋና ስልጣኔዎች።",
+    "driveUrl": "https://drive.google.com/file/d/1U0RDs844CxB7rAtwmARiWywhOHDJUpTS"
   },
   {
-    "id": "9",
-    "title": "Mathematics Grade 11",
-    "titleAm": "ሂሳብ ክፍል 11",
-    "subject": "Mathematics",
-    "grade": 11,
-    "description": "Advanced calculus, analytical geometry, and mathematical modeling.",
-    "descriptionAm": "የላቀ ካልኩለስ፣ የትንታኔ ጂኦሜትሪ እና የሂሳብ ሞዴሊንግ።",
-    "driveUrl": "https://drive.google.com/file/d/example9"
+    "id": "10-hpe",
+    "title": "Health and Physical Education Grade 10",
+    "titleAm": "ጤና እና የአካል ትምህርት ክፍል 10",
+    "subject": "Health and PE",
+    "grade": 10,
+    "description": "Advanced health and physical education topics.",
+    "descriptionAm": "የላቀ ጤና እና የአካል ትምህርት ርዕሶች።",
+    "driveUrl": "https://drive.google.com/file/d/1qQffSLFhmWMRQ3opDJncL0NDw3jNnKwQ"
   },
   {
-    "id": "10",
-    "title": "Chemistry Grade 11",
-    "titleAm": "ኬሚስትሪ ክፍል 11",
+    "id": "10-geography",
+    "title": "Geography Grade 10",
+    "titleAm": "ጂኦግራፊ ክፍል 10",
+    "subject": "Geography",
+    "grade": 10,
+    "description": "Regional and global geography studies.",
+    "descriptionAm": "የክልል እና የዓለም አቀፍ ጂኦግራፊ ጥናቶች።",
+    "driveUrl": "https://drive.google.com/file/d/1-bCOtK6GpkzApH8lKkZe_WYuMqfuXYMj"
+  },
+  {
+    "id": "10-english",
+    "title": "English Grade 10",
+    "titleAm": "እንግሊዝኛ ክፍል 10",
+    "subject": "English",
+    "grade": 10,
+    "description": "Advanced English language and literature.",
+    "descriptionAm": "የላቀ እንግሊዝኛ ቋንቋ እና ስነ-ጽሁፍ።",
+    "driveUrl": "https://drive.google.com/file/d/1Fyf6CfOxpd8Gnq-c-1jxhbYy0VEQS1se"
+  },
+  {
+    "id": "10-economics",
+    "title": "Economics Grade 10",
+    "titleAm": "ኢኮኖሚክስ ክፍል 10",
+    "subject": "Economics",
+    "grade": 10,
+    "description": "Economic systems and market principles.",
+    "descriptionAm": "የኢኮኖሚ ስርዓቶች እና የገበያ መርሆዎች።",
+    "driveUrl": "https://drive.google.com/file/d/10f47-Fz5snU9VNt5L78S6UE5C0Gf7Ixv"
+  },
+  {
+    "id": "10-civics",
+    "title": "Civics Grade 10",
+    "titleAm": "ዜግነት ክፍል 10",
+    "subject": "Civics",
+    "grade": 10,
+    "description": "Governance and citizenship responsibilities.",
+    "descriptionAm": "አስተዳደር እና የዜግነት ኃላፊነቶች።",
+    "driveUrl": "https://drive.google.com/file/d/1FqBrlYvkIf_UTXWiHoquRxyXXfqgHPId"
+  },
+  {
+    "id": "10-chemistry",
+    "title": "Chemistry Grade 10",
+    "titleAm": "ኬሚስትሪ ክፍል 10",
     "subject": "Chemistry",
-    "grade": 11,
-    "description": "Organic chemistry, chemical bonding, and laboratory techniques.",
-    "descriptionAm": "ኦርጋኒክ ኬሚስትሪ፣ የኬሚካል ትስስር እና የላብራቶሪ ቴክኒኮች።",
-    "driveUrl": "https://drive.google.com/file/d/example10"
+    "grade": 10,
+    "description": "Chemical bonding and reactions.",
+    "descriptionAm": "የኬሚካል ትስስር እና ምላሾች።",
+    "driveUrl": "https://drive.google.com/file/d/1onazBHUPpnkZpqVzYiW1o_IMdOk0rwC-"
   },
   {
-    "id": "11",
+    "id": "10-biology",
+    "title": "Biology Grade 10",
+    "titleAm": "ባዮሎጂ ክፍል 10",
+    "subject": "Biology",
+    "grade": 10,
+    "description": "Cell biology and genetics fundamentals.",
+    "descriptionAm": "የሴል ባዮሎጂ እና ጄኔቲክስ መሰረቶች።",
+    "driveUrl": "https://drive.google.com/file/d/1F63wzBOlksiskqOFV1lKH1VgOZbMtQqk"
+  },
+  {
+    "id": "10-amharic",
+    "title": "Amharic Grade 10",
+    "titleAm": "አማርኛ ክፍል 10",
+    "subject": "Amharic",
+    "grade": 10,
+    "description": "Advanced Amharic language studies.",
+    "descriptionAm": "የላቀ የአማርኛ ቋንቋ ጥናቶች።",
+    "driveUrl": "https://drive.google.com/file/d/1N58LTIF73O0UJ_-sAJLspfU6HWy6jYfi"
+  },
+  {
+    "id": "11-physics",
     "title": "Physics Grade 11",
     "titleAm": "ፊዚክስ ክፍል 11",
     "subject": "Physics",
     "grade": 11,
-    "description": "Advanced physics including thermodynamics, optics, and modern physics.",
-    "descriptionAm": "ቴርሞዳይናሚክስን፣ ኦፕቲክስን እና ዘመናዊ ፊዚክስን ያካተተ የላቀ ፊዚክስ።",
-    "driveUrl": "https://drive.google.com/file/d/example11"
+    "description": "Advanced physics including thermodynamics and optics.",
+    "descriptionAm": "ቴርሞዳይናሚክስ እና ኦፕቲክስን ያካተተ የላቀ ፊዚክስ።",
+    "driveUrl": "https://drive.google.com/file/d/14taxuhQpZWHBaDdLgchl_74Y4TsT6S03"
   },
   {
-    "id": "12",
+    "id": "11-ict",
+    "title": "ICT Grade 11",
+    "titleAm": "አይሲቲ ክፍል 11",
+    "subject": "ICT",
+    "grade": 11,
+    "description": "Programming and advanced computing concepts.",
+    "descriptionAm": "ፕሮግራሚንግ እና የላቀ የኮምፒውተር ጽንሰ-ሀሳቦች።",
+    "driveUrl": "https://drive.google.com/file/d/15gH7Z6q9hEjLobefuECaBQ_1El1F_Jmj"
+  },
+  {
+    "id": "11-history",
+    "title": "History Grade 11",
+    "titleAm": "ታሪክ ክፍል 11",
+    "subject": "History",
+    "grade": 11,
+    "description": "Modern world history and contemporary issues.",
+    "descriptionAm": "ዘመናዊ የአለም ታሪክ እና ወቅታዊ ጉዳዮች።",
+    "driveUrl": "https://drive.google.com/file/d/1Oam6f1WtOzJbrCFhCsXl_09sjXpKC1qv"
+  },
+  {
+    "id": "11-geography",
+    "title": "Geography Grade 11",
+    "titleAm": "ጂኦግራፊ ክፍል 11",
+    "subject": "Geography",
+    "grade": 11,
+    "description": "Environmental geography and sustainability.",
+    "descriptionAm": "የአካባቢ ጂኦግራፊ እና ዘላቂነት።",
+    "driveUrl": "https://drive.google.com/file/d/1UKTejny4tsoK3f5W8aAnPoHHvAKdAkNV"
+  },
+  {
+    "id": "11-economics",
+    "title": "Economics Grade 11",
+    "titleAm": "ኢኮኖሚክስ ክፍል 11",
+    "subject": "Economics",
+    "grade": 11,
+    "description": "Macro and microeconomics principles.",
+    "descriptionAm": "ማክሮ እና ማይክሮ ኢኮኖሚክስ መርሆዎች።",
+    "driveUrl": "https://drive.google.com/file/d/1MWWeiMOMZoSfgVc7uWGxOHLGf8cVI2dl"
+  },
+  {
+    "id": "11-chemistry",
+    "title": "Chemistry Grade 11",
+    "titleAm": "ኬሚስትሪ ክፍል 11",
+    "subject": "Chemistry",
+    "grade": 11,
+    "description": "Organic chemistry and laboratory techniques.",
+    "descriptionAm": "ኦርጋኒክ ኬሚስትሪ እና የላብራቶሪ ቴክኒኮች።",
+    "driveUrl": "https://drive.google.com/file/d/1gR51etabaxlis3adS4rvvZ6jb24EkIuG"
+  },
+  {
+    "id": "11-biology",
     "title": "Biology Grade 11",
     "titleAm": "ባዮሎጂ ክፍል 11",
     "subject": "Biology",
     "grade": 11,
-    "description": "Advanced biology covering genetics, evolution, and ecology.",
-    "descriptionAm": "ጄኔቲክስን፣ ዝግመተ ለውጥን እና ስነ-ምህዳርን የሚሸፍን የላቀ ባዮሎጂ።",
-    "driveUrl": "https://drive.google.com/file/d/example12"
+    "description": "Advanced biology covering genetics and evolution.",
+    "descriptionAm": "ጄኔቲክስ እና ዝግመተ ለውጥን የሚሸፍን የላቀ ባዮሎጂ።",
+    "driveUrl": "https://drive.google.com/file/d/1nbKjZk4R8gr4h95AGTuS1Y4CrAbwpMHs"
   },
   {
-    "id": "13",
-    "title": "Mathematics Grade 12",
-    "titleAm": "ሂሳብ ክፍል 12",
-    "subject": "Mathematics",
-    "grade": 12,
-    "description": "University preparation mathematics including advanced calculus and linear algebra.",
-    "descriptionAm": "የላቀ ካልኩለስ እና የመስመር አልጀብራን ጨምሮ የዩኒቨርሲቲ ዝግጅት ሂሳብ።",
-    "driveUrl": "https://drive.google.com/file/d/example13"
+    "id": "11-agriculture",
+    "title": "Agriculture Grade 11",
+    "titleAm": "ግብርና ክፍል 11",
+    "subject": "Agriculture",
+    "grade": 11,
+    "description": "Agricultural science and farming techniques.",
+    "descriptionAm": "የግብርና ሳይንስ እና የእርሻ ቴክኒኮች።",
+    "driveUrl": "https://drive.google.com/file/d/1rUcOpxAoJCTH-c3nzvsfGGf1469HyHhS"
   },
   {
-    "id": "14",
+    "id": "11-business",
+    "title": "General Business Grade 11",
+    "titleAm": "አጠቃላይ ንግድ ክፍል 11",
+    "subject": "Business",
+    "grade": 11,
+    "description": "Business principles and entrepreneurship.",
+    "descriptionAm": "የንግድ መርሆዎች እና ስራ ፈጠራ።",
+    "driveUrl": "https://drive.google.com/file/d/1b35Fe1UcVYz-BgrIX59moeIWmZY_rS-5"
+  },
+  {
+    "id": "11-civics",
+    "title": "Civics Grade 11",
+    "titleAm": "ዜግነት ክፍል 11",
+    "subject": "Civics",
+    "grade": 11,
+    "description": "Democratic governance and civic participation.",
+    "descriptionAm": "ዴሞክራሲያዊ አስተዳደር እና ዜጋዊ ተሳትፎ።",
+    "driveUrl": "https://drive.google.com/file/d/1fmH0Tv0uXOCLGu6DViyV-XkyGceTA8wI"
+  },
+  {
+    "id": "11-amharic",
+    "title": "Amharic Grade 11",
+    "titleAm": "አማርኛ ክፍል 11",
+    "subject": "Amharic",
+    "grade": 11,
+    "description": "Advanced Amharic literature and composition.",
+    "descriptionAm": "የላቀ የአማርኛ ስነ-ጽሁፍ እና ስነ-ጽሁፍ።",
+    "driveUrl": "https://drive.google.com/file/d/1HEBa8Rb826T4VLLJ2IH-2j-wu-xww8-F"
+  },
+  {
+    "id": "12-physics",
     "title": "Physics Grade 12",
     "titleAm": "ፊዚክስ ክፍል 12",
     "subject": "Physics",
     "grade": 12,
-    "description": "University preparation physics covering quantum mechanics and relativity.",
-    "descriptionAm": "ኳንተም ሜካኒክስ እና አንጻራዊነትን የሚሸፍን የዩኒቨርሲቲ ዝግጅት ፊዚክስ።",
-    "driveUrl": "https://drive.google.com/file/d/example14"
+    "description": "University preparation physics covering quantum mechanics.",
+    "descriptionAm": "ኳንተም ሜካኒክስን የሚሸፍን የዩኒቨርሲቲ ዝግጅት ፊዚክስ።",
+    "driveUrl": "https://drive.google.com/file/d/1Oa5XtAM_opj7_QEBz68shGR71pCrOMW6"
   },
   {
-    "id": "15",
+    "id": "12-ict",
+    "title": "ICT Grade 12",
+    "titleAm": "አይሲቲ ክፍል 12",
+    "subject": "ICT",
+    "grade": 12,
+    "description": "Advanced programming and software development.",
+    "descriptionAm": "የላቀ ፕሮግራሚንግ እና ሶፍትዌር ልማት።",
+    "driveUrl": "https://drive.google.com/file/d/1fDim0q4PYYWnn5YoyxSzTC75Ba36OBIU"
+  },
+  {
+    "id": "12-history",
+    "title": "History Grade 12",
+    "titleAm": "ታሪክ ክፍል 12",
+    "subject": "History",
+    "grade": 12,
+    "description": "Contemporary world history and global affairs.",
+    "descriptionAm": "ወቅታዊ የአለም ታሪክ እና ዓለም አቀፍ ጉዳዮች።",
+    "driveUrl": "https://drive.google.com/file/d/1_R49dklHAsykTXx2wEyWHpl_JfU3qmv-"
+  },
+  {
+    "id": "12-geography",
+    "title": "Geography Grade 12",
+    "titleAm": "ጂኦግራፊ ክፍል 12",
+    "subject": "Geography",
+    "grade": 12,
+    "description": "Global geography and environmental challenges.",
+    "descriptionAm": "ዓለም አቀፍ ጂኦግራፊ እና የአካባቢ ችግሮች።",
+    "driveUrl": "https://drive.google.com/file/d/1vlZAMECH004AsuqViE7WwTkJQKrWkuXY"
+  },
+  {
+    "id": "12-english",
+    "title": "English Grade 12",
+    "titleAm": "እንግሊዝኛ ክፍል 12",
+    "subject": "English",
+    "grade": 12,
+    "description": "Advanced English for university preparation.",
+    "descriptionAm": "ለዩኒቨርሲቲ ዝግጅት የላቀ እንግሊዝኛ።",
+    "driveUrl": "https://drive.google.com/file/d/1mJRhCD-UoEfDXnnTNteSK8qOgdeBF98c"
+  },
+  {
+    "id": "12-chemistry",
     "title": "Chemistry Grade 12",
     "titleAm": "ኬሚስትሪ ክፍል 12",
     "subject": "Chemistry",
     "grade": 12,
-    "description": "Advanced chemistry preparing students for university-level studies.",
-    "descriptionAm": "ተማሪዎችን ለዩኒቨርሲቲ ደረጃ ትምህርት የሚያዘጋጅ የላቀ ኬሚስትሪ።",
-    "driveUrl": "https://drive.google.com/file/d/example15"
+    "description": "Advanced chemistry for university-level studies.",
+    "descriptionAm": "ለዩኒቨርሲቲ ደረጃ ጥናት የላቀ ኬሚስትሪ።",
+    "driveUrl": "https://drive.google.com/file/d/1MFU-Frb49FtjeMqfqFoXmJQ0XjSwAg8i"
   },
   {
-    "id": "16",
+    "id": "12-agriculture",
+    "title": "Agriculture Grade 12",
+    "titleAm": "ግብርና ክፍል 12",
+    "subject": "Agriculture",
+    "grade": 12,
+    "description": "Advanced agricultural science and technology.",
+    "descriptionAm": "የላቀ የግብርና ሳይንስ እና ቴክኖሎጂ።",
+    "driveUrl": "https://drive.google.com/file/d/1nNCVX-FipYGGWM4eSHdKtIzob_6o8P6E"
+  },
+  {
+    "id": "12-business",
+    "title": "General Business Grade 12",
+    "titleAm": "አጠቃላይ ንግድ ክፍል 12",
+    "subject": "Business",
+    "grade": 12,
+    "description": "Business management and economics.",
+    "descriptionAm": "የንግድ አስተዳደር እና ኢኮኖሚክስ።",
+    "driveUrl": "https://drive.google.com/file/d/1-Fmj1VvHBlOg-G2dJK0A_at8miWvSVqY"
+  },
+  {
+    "id": "12-civics",
     "title": "Civics Grade 12",
     "titleAm": "ዜግነት ክፍል 12",
     "subject": "Civics",
     "grade": 12,
-    "description": "Citizenship education covering governance, rights, and responsibilities.",
-    "descriptionAm": "አስተዳደርን፣ መብቶችን እና ኃላፊነቶችን የሚሸፍን የዜግነት ትምህርት።",
-    "driveUrl": "https://drive.google.com/file/d/example16"
+    "description": "Citizenship education covering governance and rights.",
+    "descriptionAm": "አስተዳደር እና መብቶችን የሚሸፍን የዜግነት ትምህርት።",
+    "driveUrl": "https://drive.google.com/file/d/13Xxv9KtzqQ5zjxvfTrxFBVbo8opqKGz5"
+  },
+  {
+    "id": "12-amharic",
+    "title": "Amharic Grade 12",
+    "titleAm": "አማርኛ ክፍል 12",
+    "subject": "Amharic",
+    "grade": 12,
+    "description": "Advanced Amharic language and literature.",
+    "descriptionAm": "የላቀ የአማርኛ ቋንቋ እና ስነ-ጽሁፍ።",
+    "driveUrl": "https://drive.google.com/file/d/120Sw6lGEk9OGabPCUAyy3rgM62rPXUaH"
   }
 ]

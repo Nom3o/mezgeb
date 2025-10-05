@@ -1,6 +1,7 @@
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { useLanguage } from '@/lib/language-context';
+import { useFavorites } from '@/lib/favorites-context';
 
 interface BookCardProps {
   id: string;
@@ -10,15 +11,31 @@ interface BookCardProps {
   onClick: () => void;
 }
 
-export default function BookCard({ title, subject, coverUrl, onClick }: BookCardProps) {
+export default function BookCard({ id, title, subject, coverUrl, onClick }: BookCardProps) {
   const { t } = useLanguage();
+  const { isFavorite, toggleFavorite } = useFavorites();
+
+  const handleFavoriteClick = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    toggleFavorite(id);
+  };
 
   return (
     <div
-      className="group bg-card rounded-lg border border-card-border overflow-hidden transition-all duration-200 hover:shadow-lg hover:scale-[1.02] cursor-pointer"
+      className="group bg-card rounded-lg border border-card-border overflow-hidden transition-all duration-200 hover:shadow-lg hover:scale-[1.02] cursor-pointer relative"
       onClick={onClick}
       data-testid="card-book"
     >
+      <button
+        onClick={handleFavoriteClick}
+        className="absolute top-2 right-2 z-10 w-9 h-9 rounded-full bg-background/90 backdrop-blur-sm flex items-center justify-center hover-elevate active-elevate-2 transition-all"
+        data-testid={`button-favorite-${id}`}
+      >
+        <span className={`material-icons text-xl ${isFavorite(id) ? 'text-red-500' : 'text-muted-foreground'}`}>
+          {isFavorite(id) ? 'favorite' : 'favorite_border'}
+        </span>
+      </button>
+
       <div className="aspect-[3/4] bg-gradient-to-br from-muted to-muted/50 relative overflow-hidden">
         {coverUrl ? (
           <img src={coverUrl} alt={title} className="w-full h-full object-cover" loading="lazy" />
